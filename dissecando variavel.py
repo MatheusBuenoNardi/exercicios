@@ -1,0 +1,10 @@
+n = input('Digite algo:')
+print('pertence a classe:',type(n))
+print('é Alpfanumérico',n.isalnum())
+print('É alfabético:',n.isalpha())
+print('Está em minúsculo',n.islower())
+print('É decimal:',n.isdecimal())
+print('É número:', n.isnumeric())
+print('Só tem espaço:', n.isspace())
+print('Está tudo em maiúsculo:', n.isupper())
+
